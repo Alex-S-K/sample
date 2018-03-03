@@ -68,3 +68,39 @@ $navbar-color : #3c3e42;
         color: #fff
     }
 }
+
+// footer
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+
+    a {
+        color: #555;
+    }
+
+    a:hover {
+        color: #222;
+    }
+
+    small {
+        float: left;
+    }
+
+    ul {
+        float: right;
+        list-style: none;
+
+        li {
+            float: left;
+            margin-left: 15px;
+        }
+    }
+
+    .slogon {
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
