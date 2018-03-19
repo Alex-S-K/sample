@@ -12,6 +12,10 @@
 
         {{-- Content --}}
         <div class="container">
+            {{-- message --}}
+            @include('shared._message')
+
+            {{-- content --}}
             @yield('content')
 
             {{-- footer --}}
